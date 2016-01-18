@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox1"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox2"
+        android:layout_below="@+id/checkbox1"
+        />
+    <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/checkbox3"
+        android:layout_below="@id/checkbox2"
+    />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext1"
+      android:inputType="numberDecimal"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext2"
+android:inputType="numberDecimal"
+        android:layout_gravity="top"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="40dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext3"
+android:inputType="numberDecimal"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/edittext2"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result = 0"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="170dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/checkbox2"
+       android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:textSize="15sp" />
+
+</RelativeLayout>
